@@ -51,7 +51,7 @@
 
 <style>
 body {
-    background: url("https://media.suara.com/pictures/970x544/2020/07/26/92303-ilustrasi-olshop-online-shop-toko-online.jpg") no-repeat center center fixed;
+    background: url("https://media.suara.com/pictures/970x544/2020/07/26/92303-ilustrasi-olshop-online-shop-toko-online.jpg") no-repeat center fixed;
     background-size: cover;
     background-attachment: fixed;
 }
