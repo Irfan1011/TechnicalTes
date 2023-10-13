@@ -19,7 +19,7 @@
                 @csrf
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input id="email" class="form-control" type="email" name="email" value="{{ old('email') }}" placeholder="Example@gmail.com" required autocomplete="username" />
+                    <input id="email" class="form-control" type="email" name="email" value="{{ old('email') }}" placeholder="Example@gmail.com" required autofocus autocomplete="username" />
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
