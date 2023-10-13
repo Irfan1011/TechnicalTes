@@ -7,11 +7,9 @@
         <div class="d-flex justify-content-end">
             <div class="hidden fixed sm:block">
                 @auth
-                    <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                    <a href="{{ url()->previous() }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Back</a>
                 @else
-                @if (Route::has('register'))
                 <a class="btn btn-outline-dark me-2" href="{{route('register')}}" role="button">Register</a>
-                @endif
                 <a class="btn btn-outline-dark me-2" href="{{route('login')}}" role="button">Login</a>
                 @endauth
             </div>
